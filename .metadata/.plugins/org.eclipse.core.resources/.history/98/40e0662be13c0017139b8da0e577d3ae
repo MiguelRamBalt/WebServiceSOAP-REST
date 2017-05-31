@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:patinet xmlns:tns="http://www.example.org/Patient"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Patient Patient.xsd ">
+	<tns:id>0vv</tns:id>
+	<tns:name>Mike</tns:name>
+	<tns:age>25</tns:age>
+	<tns:dob>2001-01-01</tns:dob>
+	<tns:email>mike@gmial.com</tns:email>
+	<tns:gender>M</tns:gender>
+	<tns:phone>12345678</tns:phone>
+</tns:patinet>
