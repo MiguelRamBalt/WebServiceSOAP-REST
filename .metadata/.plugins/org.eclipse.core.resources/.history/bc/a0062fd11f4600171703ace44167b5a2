@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Patient"
+	xmlns:tns="http://www.example.org/Patient" elementFormDefault="qualified">
+	<element name="patinet" type="tns:Patient"/>
+	<complexType name="Patient">
+		<sequence>
+			<element name="id" type="tns:ID"/>
+			<element name="name" type="string"/>
+			<element name="age" type="int"/>
+			<element name="dob" type="date"/>
+			<element name="email" type="string"/>
+			<element name="gender" type="string"/>
+			<element name="phone" type="string"/>
+		</sequence>
+	</complexType>
+	
+	<simpleType name="ID">
+		<restriction base="int">
+			<pattern value="[0-9]*"></pattern>
+		</restriction>
+	</simpleType>
+</schema>

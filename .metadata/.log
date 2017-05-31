@@ -6112,3 +6112,59 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2017-05-31 10:10:08.625
 !MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:32.646
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:32.666
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:32.668
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:32.670
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:51.527
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:51.534
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:51.541
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 10:27:51.548
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2017-05-31 11:36:29.246
+!MESSAGE String index out of range: 3
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 3
+	at java.lang.String.charAt(Unknown Source)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.computeStartAndEndLocation(DelegatingSourceValidator.java:512)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.updateValidationMessages(DelegatingSourceValidator.java:313)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.validate(DelegatingSourceValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:262)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.wst.sse.ui 4 4 2017-05-31 11:48:22.026
+!MESSAGE String index out of range: 4
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 4
+	at java.lang.String.charAt(Unknown Source)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.computeStartAndEndLocation(DelegatingSourceValidator.java:512)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.updateValidationMessages(DelegatingSourceValidator.java:313)
+	at org.eclipse.wst.xml.ui.internal.validation.DelegatingSourceValidator.validate(DelegatingSourceValidator.java:250)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:303)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:262)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:95)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:269)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
