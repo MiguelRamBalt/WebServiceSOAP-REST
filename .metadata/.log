@@ -6168,3 +6168,51 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 4
 	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:321)
 	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
 	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:17.738
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:17.740
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:17.742
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:17.745
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:28.200
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:28.201
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:28.201
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:28.202
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:38.612
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:38.614
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:38.616
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:38.618
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:51.345
+!MESSAGE System property http.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:51.346
+!MESSAGE System property http.proxyPort is set to 8080 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:51.347
+!MESSAGE System property https.proxyHost is set to 10.121.11.33 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2017-05-31 11:51:51.347
+!MESSAGE System property https.proxyPort is set to 8080 but should not be set.

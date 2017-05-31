@@ -9,8 +9,8 @@
   <tns:phone>tns:phone</tns:phone>
   <tns:payment>
     <tns:insurance>
-    	<tns:limit>2000</tns:limit>
-    	<tns:provider>BANAMEX</tns:provider>
+    	<tns:limit>0</tns:limit>
+    	<tns:provider>CASH</tns:provider>
     </tns:insurance>
   </tns:payment>
 </tns:patinet>

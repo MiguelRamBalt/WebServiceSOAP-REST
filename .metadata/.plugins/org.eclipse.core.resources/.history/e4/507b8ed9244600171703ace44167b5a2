@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:patinet xmlns:tns="http://www.example.org/Patient" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Patient Patient.xsd ">
-  <tns:id>123</tns:id>
+  <tns:id>idvalue0</tns:id>
   <tns:name>tns:name</tns:name>
   <tns:age>0</tns:age>
   <tns:dob>2001-01-01</tns:dob>
@@ -8,9 +8,6 @@
   <tns:gender>M</tns:gender>
   <tns:phone>tns:phone</tns:phone>
   <tns:payment>
-    <tns:insurance>
-    	<tns:limit>2000</tns:limit>
-    	<tns:provider>BANAMEX</tns:provider>
-    </tns:insurance>
+    <tns:cash>0</tns:cash>
   </tns:payment>
 </tns:patinet>
